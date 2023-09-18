@@ -1,0 +1,71 @@
+function run() {
+ let workSchedule = [
+    {
+        "num": 1,
+        "name": "Monday",
+        "portugueseName": "Segunda",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "18:00"
+            }
+        ]
+    },
+    {
+        "num": 2,
+        "name": "Tuesday",
+        "portugueseName": "Terça",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "18:00"
+            }
+        ]
+    },
+    {
+        "num": 3,
+        "name": "Wednesday",
+        "portugueseName": "Quarta",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "18:00"
+            }
+        ]
+    },
+    {
+        "num": 4,
+        "name": "Thursday",
+        "portugueseName": "Quinta",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "18:00"
+            }
+        ]
+    },
+    {
+        "num": 5,
+        "name": "Friday",
+        "portugueseName": "Sexta",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "18:00"
+            }
+        ]
+    },
+    {
+        "num": 6,
+        "name": "Saturday",
+        "portugueseName": "Sábado",
+        "workTime": [
+            {
+                "start": "08:00",
+                "end": "12:00"
+            }
+        ]
+    }
+];
+ return JSON.stringify(workSchedule); //Return value will be saved as "Return value variable" field name
+ }
